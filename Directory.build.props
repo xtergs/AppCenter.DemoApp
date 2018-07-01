@@ -4,6 +4,7 @@
   <Target Name="GetPackagingOutputs" />
 
   <PropertyGroup>
+    <MobileBuildToolsDebug>true</MobileBuildToolsDebug>
     <IsWindows Condition=" '$(OS)' == 'Windows_NT'">true</IsWindows>
     <IsWindows Condition=" '$(IsWindows)' == '' ">false</IsWindows>
     <IsUnix Condition=" '$(OS)' == 'Unix' ">true</IsUnix>
